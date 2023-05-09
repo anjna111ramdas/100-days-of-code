@@ -18,5 +18,4 @@ Else if (arr [mid] < num)
     Beg = mid + 1;  
 }  
 }  
-
 Return -1;   
