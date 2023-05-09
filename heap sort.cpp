@@ -8,11 +8,11 @@ void heapify(int arr[], int n, int i)
     int l = 2*i + 1;
     int r = 2*i + 2;
  
-    //If left child is larger than root
+    
     if (l < n && arr[l] > arr[largest])
         largest = l;
  
-    //If right child largest 
+   
     if (r < n && arr[r] > arr[largest])
         largest = r;
  
