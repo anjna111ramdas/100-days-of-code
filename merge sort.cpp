@@ -13,7 +13,7 @@ void display(int *array, int size) {
 }
 void merge(int *array, int l, int m, int r) {
    int i, j, k, nl, nr;
-   //size of left and right sub-arrays
+   
    nl = m-l+1; nr = r-m;
    int larr[nl], rarr[nr];
    //fill left and right sub-arrays
