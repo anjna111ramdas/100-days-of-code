@@ -18,8 +18,8 @@ int main() {
         nextTerm = t1 + t2;
         t1 = t2;
         t2 = nextTerm;
-        
-        cout << nextTerm << ", ";
+     
+       cout << nextTerm << ", ";
     }
     return 0;
 }
