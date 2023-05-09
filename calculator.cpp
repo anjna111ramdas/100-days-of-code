@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-
   char op;
   float num1, num2;
 
@@ -35,6 +34,5 @@ int main() {
       cout << "Error! operator is not correct";
       break;
   }
-
   return 0;
 }
