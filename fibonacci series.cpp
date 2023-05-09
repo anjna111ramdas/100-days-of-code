@@ -8,7 +8,7 @@ int main() {
     cout << "Fibonacci Series: ";
 
     for (int i = 1; i <= n; ++i) {
-        // Prints the first two terms.
+        
         if(i == 1) {
             cout << t1 << ", ";
             continue;
