@@ -16,7 +16,7 @@ void heapify(int arr[], int n, int i)
     if (r < n && arr[r] > arr[largest])
         largest = r;
  
-    //If root is nor largest
+    
     if (largest != i)
     {
         swap(arr[i], arr[largest]);
