@@ -35,7 +35,7 @@ void heapSort(int arr[], int n)
     
     for (int i=n-1; i>=0; i--)
     {
-        //Moving current root to end
+        
         swap(arr[0], arr[i]);
  
         //Calling max heapify on the reduced heap
