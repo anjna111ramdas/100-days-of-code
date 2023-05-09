@@ -33,7 +33,7 @@ void merge(int *array, int l, int m, int r) {
       }
       k++;
    }
-   while(i<nl) {       //extra element in left array
+   while(i<nl) {       
       array[k] = larr[i];
       i++; k++;
    }
