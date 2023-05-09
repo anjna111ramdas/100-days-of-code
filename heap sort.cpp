@@ -38,7 +38,7 @@ void heapSort(int arr[], int n)
         
         swap(arr[0], arr[i]);
  
-        //Calling max heapify on the reduced heap
+        
         heapify(arr, i, 0);
     }
 }
