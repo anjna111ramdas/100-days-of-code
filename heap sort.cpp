@@ -21,7 +21,7 @@ void heapify(int arr[], int n, int i)
     {
         swap(arr[i], arr[largest]);
  
-        //Recursively heapifying the sub-tree
+        
         heapify(arr, n, largest);
     }
 }
