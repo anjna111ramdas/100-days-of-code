@@ -56,7 +56,7 @@ int main() {
    int n;
    cout << "Enter the number of elements: ";
    cin >> n;
-   int arr[n];     //create an array with given number of elements
+   int arr[n];     
    cout << "Enter elements:" << endl;
    for(int i = 0; i<n; i++) {
       cin >> arr[i];
