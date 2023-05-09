@@ -46,7 +46,7 @@ void mergeSort(int *array, int l, int r) {
    int m;
    if(l < r) {
       int m = l+(r-l)/2;
-      // Sort first and second arrays
+      
       mergeSort(array, l, m);
       mergeSort(array, m+1, r);
       merge(array, l, m, r);
