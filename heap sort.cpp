@@ -53,7 +53,6 @@ void display(int arr[], int n)
     cout << "\n";
 }
  
-
 int main()
 {
     int arr[] = {1, 14, 3, 7, 0};
