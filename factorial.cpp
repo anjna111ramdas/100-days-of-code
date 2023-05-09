@@ -4,7 +4,6 @@ using namespace std;
 int main() {
     int n;
     long factorial = 1.0;
-
     cout << "Enter a positive integer: ";
     cin >> n;
 
