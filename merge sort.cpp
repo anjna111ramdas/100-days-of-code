@@ -16,7 +16,7 @@ void merge(int *array, int l, int m, int r) {
    
    nl = m-l+1; nr = r-m;
    int larr[nl], rarr[nr];
-   //fill left and right sub-arrays
+   
    for(i = 0; i<nl; i++)
       larr[i] = array[l+i];
    for(j = 0; j<nr; j++)
