@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-   int i,j,k,space=10; // to print the pyram
+   int i,j,k,space=10; // to print the pyr
    
 for (int i=0;i<=5;i++)
 {
