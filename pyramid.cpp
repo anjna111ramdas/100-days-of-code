@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-   int i,j,k,space=10; // to print the pyramid in 
+   int i,j,k,space=10; // to print the pyramid 
    
 for (int i=0;i<=5;i++)
 {
