@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-   int i,j,k,space=10; // to pri
+   int i,j,k,space=10; // to 
    
 for (int i=0;i<=5;i++)
 {
